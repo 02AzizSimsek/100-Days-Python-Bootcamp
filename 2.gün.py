@@ -1,27 +1,27 @@
 # what we will be make by the end of the day
-print(len(12345))#bu şekilde hata verir 
-print(len('124569'))#bu şekilde 6 tane oldugunu söyler bize
+print(len(12345))# it gives error like this
+print(len('124569'))#this way it tells us that there are 6 of them
 #len does not work int types
 
 
 #  DATA TYPES 
 
-#  String => karakter için kullanırız,"" tırnak işareti ile kullanÄ±rÄ±z
+#  String => we use for character, we use "" with quotation mark
 print("Hello"[0])#=>output:H
 print("Hello"[2])#=>output:l
-#"123"#=>bilgisayar sayı oldugunu anlamaz 
+#"123"#=>the computer does not understand that it is a number
 print("123"+"456")#=>output:123456
 print("hello"+"world")#=>output:helloworld
 
-#  Integer=>veri sayi tipinde tam sayilar tipinde veri ise 
+#  Integer=>if the data is of number type, integer type
 print(123+456)#output:579
-#123_456_789 => aslında bilgisayar alt alt cizgileri kaldirir ve 123456789 seklinde okur,alt cizgi bizim okumamizi kolaylastirir
+#123_456_789 => actually the computer removes the underscores and reads it as 123456789, the underscore makes it easier for us to read
 
-#  Float=>kayan nokta denir ve noktali sayilara hitap eder
+#  Float=>called floating point and caters to dotted numbers
 #3.14159
 
-#  Boolean=>True ya da False olarak yaklasır ,tırnak isaretine gerek yokturdur 
-#test yontemi olarak kullanilir yazdigimizi kontrol etmek icin
+#  Boolean=>Approximates True or False, no need for quotation marks 
+#It is used as a test method to check what we wrote.
 
 num_char=len(input("what is your name? "))
 #print("Your name has "+num_char+" characters")#wrong type
@@ -86,7 +86,7 @@ print(bmi)
 print(8/3)
 print(round(8/3))#rounding process
 print(round(2.66666,2))#rounding 2.67
-print(8//5)#direct rounding 1,actually (8/5)output:1,6,round(8/5) output:2
+print(8//5)#direct rounding 1, actually (8/5)output:1.6 ,round(8/5) output:2
 
 # f-string=>all these different data types can be combined into a string using an F in it.
 score=0
@@ -139,10 +139,4 @@ bill_per_person=total_bill/people
 final_amount=round(bill_per_person,2)
 final_amount="{:.2f}".format(bill_per_person)
 print(f"Each person should pay: ${final_amount}")
-
-
-
-
-
-
 
