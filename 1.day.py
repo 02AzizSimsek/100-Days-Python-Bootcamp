@@ -1,5 +1,5 @@
 print("hello world!")
-#""ifadesi kullanıldıgı zaman içindeki kısım kod degildir anlamındadır 
+#""=>When the expression is used, it means that the part in it is not code. 
 print("hello"+" "+"aziz")
 
 #-----------------
@@ -25,8 +25,7 @@ print("hello " + input("What is your name?"))
 
 #--------------------
 
-#sorunun çözümünde ise google araması olarak bakabiliriz =how to get the length of a string in python stack overflow
- 
+#In the solution of the problem, we can look at it as a google search =how to get the length of a string in python stack overflow
 a=input("What is your name? ")
 print(a)
 len(a)
